@@ -3,4 +3,4 @@ Flagship wordpress theme developed by the good developers at the mighty Adbyrd A
   
 --- 
 
-Visit [Adbyrd](https://www.adbyrd.com) for more information.
+Visit [Adbyrd](https://adbyrd.com) for more information.
