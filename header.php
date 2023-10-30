@@ -21,4 +21,4 @@ if ( function_exists( 'wp_body_open' ) ){
 }
 ?>
 
-<header>Header</header>
+<header class="bg-red-500">Header</header>
