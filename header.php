@@ -6,17 +6,19 @@
 
 <!DOCTYPE html>
 <html lang="<?php language_attributes(); ?>">
-    <head>
-        <meta charset="<?php bloginfo('charset')  ?>">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Elohim</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-        <?php wp_head(); ?>
-    </head>
-    <body <?php body_class(); ?>>
-    
-    <?php wp_body_open(); ?>
-    
-    <header>Header</header>
+<head>
+    <meta charset="<?php bloginfo('charset')  ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <?php wp_head(); ?>
+</head>
+<body <?php body_class(); ?>>
+
+<?php 
+// If user is accessing this theme using an older version of WP
+if ( function_exists( 'wp_body_open' ) ){
+    wp_body_open(); 
+}
+?>
+
+<header>Header</header>
