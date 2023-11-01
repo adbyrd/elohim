@@ -3,21 +3,21 @@ Flagship wordpress theme developed by the good developers at the mighty Adbyrd A
 
 
 
-# Font Libraries Used  
+## Font Libraries Used  
 These are the font libraries used in this theme.  
 1. [Font Awesome](https://fontawesome.com)
 2. [Hero Icons](https://fontawesome.com)
 
 
 
-# Technologies  
+## Technologies  
 
-## TailwindCSS  
+### TailwindCSS  
 Visit [TailwindCSS](https://tailwindcss.com)
 
 **Start the Tailwind CLI build process**
 ```
-$ npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch  
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch  
 ```
 
 
