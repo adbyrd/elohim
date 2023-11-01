@@ -7,5 +7,7 @@
  get_header();
  
 ?>
-<div>HOME</div>
+<div class="h-screen" style="background-color:#FF0000;">
+    Adbyrd
+</div>
 <?php get_footer(); ?>
