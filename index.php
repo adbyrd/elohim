@@ -5,11 +5,7 @@
  */
 
  get_header();
-
+ 
 ?>
-
-
-<h1>Elohim</h1>
-
-
+<div>HOME</div>
 <?php get_footer(); ?>
