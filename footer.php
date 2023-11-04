@@ -60,14 +60,29 @@
                     </ul>
                 </div>
                 <div id="adbyrd-cell-04">
-                    <h3 class="text-2xl text-center md:text-left">Other</h3>
+                    <h3 class="text-2xl text-center md:text-left">...</h3>
+                    <ul class="list-none text-center md:text-left">
+                        <li>
+                            <a href="#" class="text-sm">Media & Press</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-sm">Corporate Creative Services</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-sm">Quote</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-sm">Frequently Asked Questions (FAQ)</a>
+                        </li>
+                        <!-- Blog, Jobs, Accessibility, Partners -->
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
 
     <div id="adbyrd-footer-copyrights" class="bg-gray-400 py-4">
-        <p class="text-xs text-center text-[#FFFFFF]">Copyright © 2023 Adbyrd, LLC. All Rights Reserved. <a href="#">Privacy Policy</a></p>
+        <p class="text-xs text-center text-[#FFFFFF]">Copyright © 2023 Adbyrd, LLC. All Rights Reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a> | <a href="#">Cookie Policy</a></p>
     </div>
 
 </footer>
